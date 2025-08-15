@@ -37,12 +37,12 @@ This project demonstrates a simple 2-input OR gate written in Verilog, along wit
 
 The waveform shows the expected truth table for an OR gate:
 
-| a | b | y (a | b) |
-|---|---|-----------|
-| 0 | 0 |     0     |
-| 0 | 1 |     1     |
-| 1 | 0 |     1     |
-| 1 | 1 |     1     |
+| a | b | y (a &#124; b) |
+|---|---|-------------|
+| 0 | 0 |     0       |
+| 0 | 1 |     1       |
+| 1 | 0 |     1       |
+| 1 | 1 |     1       |
 
 ---
 

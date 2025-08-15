@@ -2,6 +2,29 @@
 
 Welcome to my comprehensive Digital Design learning journey! This repository documents my exploration of digital systems, hardware description languages, and low-level programming concepts.
 
+
+## 🖼️ Featured Project: AND Gate in Verilog
+
+### AND Gate Module and Testbench
+This project demonstrates a simple 2-input AND gate written in Verilog, along with its testbench and waveform output.
+
+- **Source:** [`verilog/basics/and_gate.v`](verilog/basics/and_gate.v)
+- **Testbench:** [`verilog/basics/and_gate_tb.v`](verilog/basics/and_gate_tb.v)
+- **Waveform Screenshot:**
+
+![AND gate GTKWave output](images/and_gate_waveform.png)
+
+The waveform shows the expected truth table for an AND gate:
+
+| a | b | y (a & b) |
+|---|---|-----------|
+| 0 | 0 |     0     |
+| 0 | 1 |     0     |
+| 1 | 0 |     0     |
+| 1 | 1 |     1     |
+
+---
+
 ## 📚 What's Inside
 
 This repository serves as a knowledge base and practical workspace for:

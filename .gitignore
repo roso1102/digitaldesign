@@ -1,0 +1,24 @@
+# Ignore simulation executables and output files
+*.vcd
+*.vvp
+*.exe
+*.out
+*.sim
+
+# Ignore backup and temporary files
+*~
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Ignore build and log files
+*.log
+*.obj
+*.elf
+*.map
+*.bin
+*.hex
+
+# Ignore VS Code settings (optional)
+.vscode/

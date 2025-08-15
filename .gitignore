@@ -5,6 +5,13 @@
 *.out
 *.sim
 
+# Simulation output files
+*.vvp
+*.vcd
+*_sim
+*.out
+*.log
+
 # Ignore backup and temporary files
 *~
 *.swp

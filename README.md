@@ -3,7 +3,8 @@
 Welcome to my comprehensive Digital Design learning journey! This repository documents my exploration of digital systems, hardware description languages, and low-level programming concepts.
 
 
-## 🖼️ Featured Project: AND Gate in Verilog
+
+## 🖼️ Featured Projects: Verilog Logic Gates
 
 ### AND Gate Module and Testbench
 This project demonstrates a simple 2-input AND gate written in Verilog, along with its testbench and waveform output.
@@ -21,6 +22,26 @@ The waveform shows the expected truth table for an AND gate:
 | 0 | 0 |     0     |
 | 0 | 1 |     0     |
 | 1 | 0 |     0     |
+| 1 | 1 |     1     |
+
+---
+
+### OR Gate Module and Testbench
+This project demonstrates a simple 2-input OR gate written in Verilog, along with its testbench and waveform output.
+
+- **Source:** [`verilog/basics/or_gate.v`](verilog/basics/or_gate.v)
+- **Testbench:** [`verilog/basics/or_gate_tb.v`](verilog/basics/or_gate_tb.v)
+- **Waveform Screenshot:**
+
+![OR gate GTKWave output](images/or_gate_waveform.png)
+
+The waveform shows the expected truth table for an OR gate:
+
+| a | b | y (a | b) |
+|---|---|-----------|
+| 0 | 0 |     0     |
+| 0 | 1 |     1     |
+| 1 | 0 |     1     |
 | 1 | 1 |     1     |
 
 ---

@@ -64,6 +64,26 @@ The waveform shows the expected truth table for a NOT gate:
 
 ---
 
+### XOR Gate Module and Testbench
+This project demonstrates a simple 2-input XOR gate written in Verilog, along with its testbench and waveform output.
+
+- **Source:** [`verilog/basics/xor_gate.v`](verilog/basics/xor_gate.v)
+- **Testbench:** [`verilog/basics/xor_gate_tb.v`](verilog/basics/xor_gate_tb.v)
+- **Waveform Screenshot:**
+
+![XOR gate GTKWave output](images/xor_gate_waveform.png)
+
+The waveform shows the expected truth table for a XOR gate:
+
+| a | b | y (a ^ b) |
+|---|---|-----------|
+| 0 | 0 |     0     |
+| 0 | 1 |     1     |
+| 1 | 0 |     1     |
+| 1 | 1 |     0     |
+
+---
+
 ## 📚 What's Inside
 
 This repository serves as a knowledge base and practical workspace for:

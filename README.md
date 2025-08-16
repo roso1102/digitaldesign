@@ -46,6 +46,24 @@ The waveform shows the expected truth table for an OR gate:
 
 ---
 
+### NOT Gate Module and Testbench
+This project demonstrates a simple NOT gate (inverter) written in Verilog, along with its testbench and waveform output.
+
+- **Source:** [`verilog/basics/not_gate.v`](verilog/basics/not_gate.v)
+- **Testbench:** [`verilog/basics/not_gate_tb.v`](verilog/basics/not_gate_tb.v)
+- **Waveform Screenshot:**
+
+![NOT gate GTKWave output](images/not_gate_waveform.png)
+
+The waveform shows the expected truth table for a NOT gate:
+
+| a | y (~a) |
+|---|--------|
+| 0 |   1    |
+| 1 |   0    |
+
+---
+
 ## 📚 What's Inside
 
 This repository serves as a knowledge base and practical workspace for:

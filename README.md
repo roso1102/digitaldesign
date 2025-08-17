@@ -149,13 +149,12 @@ DigitalDesign/
 │   ├── 📁 hardware-interface/  # Hardware communication
 │   └── 📁 projects/            # Practical implementations
 ├── 📁 verilog/                 # Verilog HDL code and designs
-│   ├── 📁 basics/              # Basic Verilog concepts
+│   ├── 📁 basics/              # Basic Verilog concepts and gates
 │   ├── 📁 modules/             # Reusable Verilog modules
 │   ├── 📁 testbenches/         # Simulation and testing
 │   └── 📁 fpga-projects/       # FPGA implementation projects
-├── 📁 tools/                   # Scripts and utilities
-├── 📁 references/              # Documentation and resources
-└── 📁 labs/                    # Laboratory exercises and experiments
+├── 📁 images/                  # Simulation screenshots and diagrams
+└── 📄 README.md                # Main documentation
 ```
 
 ---
@@ -263,9 +262,8 @@ vvp simulation.vvp
 📂 **Temp Files**: Keep experimenting! We'll sort everything later
 
 ### Recent Updates
+- **Aug 17, 2025** - Added NOR, XNOR, XOR, NOT, OR, AND gate Verilog projects and updated documentation
 - **Aug 7, 2025** - Initial repository setup and README creation
-- **[Date]** - Added basic digital design concepts
-- **[Date]** - Implemented first Verilog module
 
 ### Current Focus
 - [ ] Learning area currently being studied

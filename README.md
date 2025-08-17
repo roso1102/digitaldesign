@@ -1,10 +1,9 @@
-# 🔧 Digital Design Learning Repository
+# Digital Design Learning Repository
 
 Welcome to my comprehensive Digital Design learning journey! This repository documents my exploration of digital systems, hardware description languages, and low-level programming concepts.
 
 
-
-## 🖼️ Featured Projects: Verilog Logic Gates
+## Featured Projects: Verilog Logic Gates
 
 ### AND Gate Module and Testbench
 This project demonstrates a simple 2-input AND gate written in Verilog, along with its testbench and waveform output.

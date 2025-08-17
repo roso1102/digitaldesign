@@ -84,6 +84,26 @@ The waveform shows the expected truth table for a XOR gate:
 
 ---
 
+### XNOR Gate Module and Testbench
+This project demonstrates a simple 2-input XNOR gate written in Verilog, along with its testbench and waveform output.
+
+- **Source:** [`verilog/basics/xnor_gate.v`](verilog/basics/xnor_gate.v)
+- **Testbench:** [`verilog/basics/xnor_gate_tb.v`](verilog/basics/xnor_gate_tb.v)
+- **Waveform Screenshot:**
+
+![XNOR gate GTKWave output](images/xnor_gate_waveform.png)
+
+The waveform shows the expected truth table for a XNOR gate:
+
+| a | b | y (a ~^ b) |
+|---|---|------------|
+| 0 | 0 |     1      |
+| 0 | 1 |     0      |
+| 1 | 0 |     0      |
+| 1 | 1 |     1      |
+
+---
+
 ## 📚 What's Inside
 
 This repository serves as a knowledge base and practical workspace for:

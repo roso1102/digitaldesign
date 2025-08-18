@@ -143,6 +143,24 @@ The waveform shows the expected truth table for a NAND gate:
 
 ---
 
+### Buffer Gate Module and Testbench
+This project demonstrates a simple buffer gate written in Verilog, along with its testbench and waveform output.
+
+- **Source:** [`verilog/basics/buffer.v`](verilog/basics/buffer.v)
+- **Testbench:** [`verilog/basics/buffer_tb.v`](verilog/basics/buffer_tb.v)
+- **Waveform Screenshot:**
+
+![Buffer gate GTKWave output](images/buffer_waveform.png)
+
+The waveform shows the expected truth table for a buffer gate:
+
+| a | y |
+|---|---|
+| 0 | 0 |
+| 1 | 1 |
+
+---
+
 ## 📚 What's Inside
 
 This repository serves as a knowledge base and practical workspace for:

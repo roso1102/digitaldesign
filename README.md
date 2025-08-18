@@ -123,6 +123,26 @@ The waveform shows the expected truth table for a NOR gate:
 
 ---
 
+### NAND Gate Module and Testbench
+This project demonstrates a simple 2-input NAND gate written in Verilog, along with its testbench and waveform output.
+
+- **Source:** [`verilog/basics/nand_gate.v`](verilog/basics/nand_gate.v)
+- **Testbench:** [`verilog/basics/nand_gate_tb.v`](verilog/basics/nand_gate_tb.v)
+- **Waveform Screenshot:**
+
+![NAND gate GTKWave output](images/nand_gate_waveform.png)
+
+The waveform shows the expected truth table for a NAND gate:
+
+| a | b | y ~(a & b) |
+|---|---|------------|
+| 0 | 0 |     1      |
+| 0 | 1 |     1      |
+| 1 | 0 |     1      |
+| 1 | 1 |     0      |
+
+---
+
 ## 📚 What's Inside
 
 This repository serves as a knowledge base and practical workspace for:
